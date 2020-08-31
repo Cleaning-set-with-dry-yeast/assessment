@@ -30,7 +30,7 @@ a{
     text-decoration: none;
 }
 .caution{
-    background: linear-gradient(to left, white, darkgoldenrod);
+    background: linear-gradient(to left, gold, #e45653);
     width: 300px;
     margin: auto;
     margin-top: 180px;
