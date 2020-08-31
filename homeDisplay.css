@@ -18,7 +18,7 @@ footer{
     height: 100px;
 }
 .stageLink{
-    background: radial-gradient(rgb(206, 245, 135), chartreuse);
+    background: radial-gradient(#9b95c9,#8a77b7);
     margin: auto;
     margin-top: 150px;
     display: inline-block;
