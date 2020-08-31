@@ -3,6 +3,7 @@ body{
 }
 header{
     background: #00ff99;
+    width: 1280px;
     height: 120px;
     display: flex;
     justify-content: space-between;
@@ -11,7 +12,7 @@ header{
 .finishZone{
     background: #000000;
     color: darkgray;
-    width: auto;
+    width: 1280px;
     height: 150px;
     text-align: center;
 }
@@ -20,7 +21,7 @@ header{
 }
 .backGround{
     background: cornflowerblue;
-    width: auto;
+    width: 1280px;
     height: 330px;
     position: relative;
 }
@@ -45,7 +46,7 @@ header{
     left: 0;
 }
 .frameRight1,.frameRight2{
-    right: 0;
+    left: 1250px;
 }
 /* 上下の間隔は20px,左右の間隔は基本20px */
 .frameTop1,.frameTop2,
@@ -62,7 +63,7 @@ header{
 .frameTop2{
     width: 500px;
     top: 120px;
-    right: 0;
+    left: 780px;
 }
 .frameButtom1{
     width: 340px;
@@ -72,12 +73,12 @@ header{
 .frameButtom2{
     width: 800px;
     top: 420px;
-    right: 0;
+    left: 450px;
 }
 .finishButtom{
-    background: rgb(170, 170, 170);
+    background: rgb(18, 132, 160);
     width: 1280px;
-    top: 550px;
+    top: 570px;
 }
 
 /* 一時的に障害物を消す */
@@ -108,11 +109,11 @@ header{
 }
 .bar1-4{
     width: 130px;
-    right: 370px;
+    left: 780px;
 }
 .bar1-5{
     width: 300px;
-    right: 50px;
+    left: 930px;
 }
 .bar2-1,.bar2-2,.bar2-3,.bar2-4{
     background: chocolate;
@@ -134,7 +135,7 @@ header{
 }
 .bar2-4{
     width: 200px;
-    right: 30px;
+    left: 1050px;
 }
 /* パスワードを隠す */
 #secret{
@@ -144,7 +145,7 @@ header{
     height: 20px;
     position: absolute;
     top: 300px;
-    right: 30px;
+    left: 1180px;
 }
 #secret:hover{
     background: #00ff99;
@@ -183,7 +184,7 @@ header{
 }
 .bar3-5{
     width: 300px;
-    right: 0;
+    left: 980px;
 }
 .bar4-1,.bar4-2,.bar4-3,.bar4-4{
     background: chocolate;
@@ -205,7 +206,7 @@ header{
 }
 .bar4-4{
     width: 250px;
-    right: 0;
+    left: 1030px;
 }
 .bar5-1,.bar5-2,.bar5-3,.bar5-4{
     background: chocolate;
@@ -223,7 +224,7 @@ header{
 }
 .bar5-3{
     width: 350px;
-    right: 50px;
+    left: 880px;
 }
 .mini1-1,.mini1-2,.mini2-1,.mini2-2,.mini3-1,.mini3-2,
 .mini4-1,.mini4-2,.mini5-1,.mini5-2,.mini6-1,.mini6-2{
@@ -238,7 +239,7 @@ header{
 }
 .mini1-2{
     top: 150px;
-    right: 480px;
+    left: 780px;
 }
 .word2{
     top: 150px;
@@ -250,7 +251,7 @@ header{
 }
 .mini2-2{
     top: 200px;
-    right: 330px;
+    left: 930px;
 }
 .mini3-1{
     top: 250px;
@@ -258,7 +259,7 @@ header{
 }
 .mini3-2{
     top: 250px;
-    right: 480px;
+    left: 780px;
 }
 .word1{
     top: 300px;
@@ -270,7 +271,7 @@ header{
 }
 .mini4-2{
     top: 300px;
-    right: 400px;
+    left: 860px;
 }
 .mini5-1{
     top: 350px;
@@ -278,7 +279,7 @@ header{
 }
 .mini5-2{
     top: 350px;
-    right: 380px;
+    left: 880px;
 }
 .mini6-1{
     top: 400px;
@@ -286,9 +287,9 @@ header{
 }
 .mini6-2{
     top: 400px;
-    right: 200px;
+    left: 1060px;
 }
 .word3{
     top: 400px;
-    right: 170px;
+    left: 1080px;
 }
