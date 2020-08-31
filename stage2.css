@@ -50,7 +50,7 @@ header{
     left: 1250px;
 }
 .frameTop1,.frameTop2,
-.frameBottom1,.frameBottom2,.finishBottom{
+.frameBottom1,.frameBottom2{
     background: #90d7ec;
     height: 30px;
     position: absolute;
@@ -76,7 +76,10 @@ header{
     left: 900px;
 }
 .finishBottom{
+    position: absolute;
+    background: #f6adc6;
     width: 1280px;
+    height: 30px;
     top: 520px;
 }
 
