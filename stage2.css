@@ -75,13 +75,13 @@ header{
     top: 390px;
     left: 900px;
 }
-/* .finishBottom{
+.finishBottom{
     position: absolute;
     background: #f6adc6;
     width: 1280px;
     height: 30px;
     top: 520px;
-} */
+}
 .move1,.gate1,.gate2{
     position: absolute;
     background: yellow;
