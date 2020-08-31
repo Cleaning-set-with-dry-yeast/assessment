@@ -50,7 +50,7 @@ header{
 }
 /* 上下の間隔は20px,左右の間隔は基本20px */
 .frameTop1,.frameTop2,
-.frameButtom1,.frameButtom2,.finishButtom{
+.frameBottom1,.frameBottom2,.finishBottom{
     background: chocolate;
     height: 30px;
     position: absolute;
@@ -65,17 +65,17 @@ header{
     top: 120px;
     left: 780px;
 }
-.frameButtom1{
+.frameBottom1{
     width: 340px;
     top: 420px;
     left: 0;
 }
-.frameButtom2{
+.frameBottom2{
     width: 800px;
     top: 420px;
     left: 450px;
 }
-.finishButtom{
+.finishBottom{
     background: rgb(18, 132, 160);
     width: 1280px;
     top: 570px;
