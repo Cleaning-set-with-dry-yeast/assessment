@@ -82,7 +82,6 @@ header{
     height: 30px;
     top: 520px;
 }
-
 .bar1-1,.gate1,.gate2{
     position: absolute;
     background: yellow;
@@ -160,7 +159,7 @@ header{
     height: 150px;
     border-radius: 20px 20px 20px 20px;
     top: 190px;
-    left: 900px;
+    left: 830px;
 }
 .gate1,.gate2{
     width: 100px;
