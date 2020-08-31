@@ -1,10 +1,12 @@
 body{
     margin: 0;
+    width: 1280px;
 }
 header{
     background: #fedcbd;
     color: #f6adc6;
     height: 120px;
+    width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +14,7 @@ header{
 .finishZone{
     background: #fedcbd;
     color: #d93a49;
-    width: auto;
+    width: 1280px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -23,7 +25,7 @@ header{
 }
 .backGround{
     background: purple;
-    width: auto;
+    width: 1280px;
     height: 300px;
     position: relative;
 }
@@ -45,7 +47,7 @@ header{
     left: 0;
 }
 .frameRight1,.frameRight2{
-    right: 0;
+    left: 1250px;
 }
 .frameTop1,.frameTop2,
 .frameBottom1,.frameBottom2,.finishBottom{
@@ -61,7 +63,7 @@ header{
 .frameTop2{
     width: 500px;
     top: 120px;
-    right: 0;
+    left: 780px;
 }
 .frameBottom1{
     width: 800px;
@@ -71,13 +73,13 @@ header{
 .frameBottom2{
     width: 380px;
     top: 390px;
-    right: 0;
+    left: 900px;
 }
-/* .finishBottom{
+.finishBottom{
     background: rgb(220, 255, 23);
     width: 1280px;
     top: 520px;
-} */
+}
 
 .bar1-1,.gate1,.gate2{
     position: absolute;
